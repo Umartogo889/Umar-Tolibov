@@ -27,6 +27,7 @@
   }
   .nav__toggle {
     transform: translateX(-0%);
+    z-index: 999;
   }
   .nav__item {
     margin-top: 70px;
@@ -55,14 +56,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     width: 100%;
     height: 90vh;
-    z-index: 1;
   }
   .home-container {
     position: absolute;
     top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    z-index: 1;
   }
   .my-photo {
     width: 250px;
@@ -130,5 +136,25 @@
   .two-btn:hover {
     background: #000;
     color: #fff;
+  }
+}
+@media (min-width: 580px) and (max-width: 895px) {
+  .home-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+  }
+  .my-photo {
+    width: 240px;
+    height: 240px;
+    border-radius: 100%;
+    margin-left: 20px;
+    overflow: hidden;
+  }
+  .my-photo img {
+    width: 240px;
   }
 }
