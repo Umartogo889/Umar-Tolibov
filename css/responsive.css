@@ -1,0 +1,50 @@
+@media only screen and (max-width: 580px) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
+
+  .toggle {
+    position: absolute;
+    right: 9%;
+    display: inline;
+  }
+  .logo {
+    position: absolute;
+    left: 7%;
+  }
+
+  .nav__list {
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    top: 0px;
+    right: 0px;
+    width: 50%;
+    background: rgba(255, 138, 4, 0.993);
+    height: 100vh;
+    transform: translateX(100%);
+  }
+  .nav__toggle {
+    transform: translateX(-0%);
+  }
+  .nav__item {
+    margin-top: 70px;
+  }
+
+  .nav__link {
+    text-decoration: none;
+    font-size: 23px;
+    font-family: "Josefin Slab", serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+
+  .close__btn {
+    position: absolute;
+    display: block;
+    left: 10%;
+    top: 2%;
+    cursor: pointer;
+  }
+}
