@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Hanken Grotesk", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&family=Bitter:ital,wght@0,100..900;1,100..900&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Dancing+Script:wght@400..700&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Slabo+13px&display=swap");
+}
+@font-face {
+  font-family: "DM Mono", monospace;
+  src: url("https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&family=Bitter:ital,wght@0,100..900;1,100..900&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Dancing+Script:wght@400..700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Slabo+13px&display=swap");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  height: 100vh;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.all-container {
+  width: 1300px;
+}
+
+/************************* Navbar  **********************/
+.hidden{
+  display: none;
+}
+.navbar {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  
+
+}
+.logo {
+  white-space: nowrap;
+  flex-shrink: 0;
+  user-select: none;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.nav__list {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  transition: 1s;
+}
+
+.nav__link {
+  text-decoration: none;
+  font-size: 22px;
+  font-family: "Josefin Slab", serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+/************************* Home **********************/
