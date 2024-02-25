@@ -1,4 +1,5 @@
 @media only screen and (max-width: 580px) {
+
   body,
   html {
     overflow-x: hidden;
@@ -9,6 +10,7 @@
     right: 9%;
     display: inline;
   }
+
   .logo {
     position: absolute;
     left: 7%;
@@ -25,10 +27,12 @@
     height: 100vh;
     transform: translateX(100%);
   }
+
   .nav__toggle {
     transform: translateX(-0%);
     z-index: 999;
   }
+
   .nav__item {
     margin-top: 70px;
   }
@@ -58,7 +62,9 @@
     align-items: center;
     width: 100%;
     height: 90vh;
+
   }
+
   .home-container {
     position: absolute;
     top: 50px;
@@ -70,16 +76,20 @@
     gap: 20px;
     z-index: 1;
   }
+
   .my-photo {
     width: 250px;
     height: 250px;
     border-radius: 100%;
     margin-left: 20px;
     overflow: hidden;
+    z-index: 1;
   }
+
   .my-photo img {
     width: 250px;
   }
+
   .my-about-text-title {
     position: relative;
     top: 20px;
@@ -90,6 +100,7 @@
     display: flex;
     flex-direction: column;
   }
+
   .my-about-text-title h1 {
     text-transform: capitalize;
     width: 280px;
@@ -103,14 +114,17 @@
     font-size: 20px;
     color: #504f4f;
   }
+
   .p-two {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     color: #504f4f;
   }
+
   .buttons {
     margin-top: 30px;
   }
+
   .buttons a {
     text-decoration: none;
     border: 1px solid #000;
@@ -120,10 +134,12 @@
     border-radius: 25px;
     transition: 0.4s;
   }
+
   .one-btn {
     color: #000;
     background: #fff;
   }
+
   .two-btn {
     background: #000;
     color: #fff;
@@ -133,11 +149,125 @@
     color: #000;
     background: #fff;
   }
+
   .two-btn:hover {
     background: #000;
     color: #fff;
   }
+
+  /* ********************About ***************************/
+  .text-title-my-about {
+    position: absolute;
+    top: 750px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-me {
+    position: absolute;
+    font-family: "Poppins", sans-serif;
+
+  }
+
+  .about {
+    position: absolute;
+    top: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .photo-bg img {
+    border-radius: 12px;
+    width: 300px;
+    margin-left: 20px;
+    display: none;
+  }
+
+  .card-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .card-box .card {
+    width: 350px;
+    height: 200px;
+    border-radius: 8px;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .langue {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+  }
+
+  .langue-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin-left: 5px;
+    font-size: 15px
+  }
+
+  .langue-card img {
+    transition: 0.5s;
+    width: 35px;
+    height: 35px;
+  }
+
+  .langue-card img:hover {
+    transform: translateY(-7px);
+  }
+
+  .experience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+
+  .text-title {
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .text-title h1 {
+    margin-top: 50px;
+  }
+
+  .text-title p {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 330px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 35px;
+  }
 }
+
 @media (min-width: 580px) and (max-width: 895px) {
   .home-container {
     position: absolute;
@@ -147,6 +277,7 @@
     width: 100%;
     gap: 50px;
   }
+
   .my-photo {
     width: 240px;
     height: 240px;
@@ -154,7 +285,123 @@
     margin-left: 20px;
     overflow: hidden;
   }
+
   .my-photo img {
     width: 240px;
+  }
+
+  /* ********************About ***************************/
+  .text-title-my-about {
+    position: absolute;
+    top: 750px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-me {
+    position: absolute;
+    font-family: "Poppins", sans-serif;
+
+  }
+
+  .about {
+    position: absolute;
+    top: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .about-me-box {
+    display: flex;
+  }
+
+  .about-container {
+    display: flex;
+
+  }
+
+  .photo-bg img {
+    border-radius: 12px;
+    width: 300px;
+    margin-left: 20px;
+    display: none;
+  }
+
+  .card-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .card-box .card {
+    width: 350px;
+    height: 200px;
+    border-radius: 8px;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .langue {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+  }
+
+  .langue-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin-left: 5px;
+    font-size: 15px
+  }
+
+  .langue-card img {
+    transition: 0.5s;
+    width: 35px;
+    height: 35px;
+  }
+
+  .langue-card img:hover {
+    transform: translateY(-7px);
+  }
+
+  .experience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+
+  .text-title {
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .text-title h1 {
+    margin-top: 50px;
+  }
+
+  .text-title p {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 330px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 35px;
   }
 }
