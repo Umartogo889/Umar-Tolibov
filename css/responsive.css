@@ -308,7 +308,7 @@
 
   .about {
     position: absolute;
-    top: 850px;
+    top: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -316,6 +316,8 @@
   }
 
   .about-me-box {
+    position: relative;
+    top: 450px;
     display: flex;
   }
 
