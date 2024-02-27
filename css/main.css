@@ -75,11 +75,14 @@ html {
 }
 
 /************************* Home **********************/
+
+
 .home {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
 .home-container {
@@ -89,7 +92,7 @@ html {
   justify-content: center;
   align-items: center;
   width: 100%;
-  gap: 200px;
+  gap: 290px;
 }
 
 .my-photo {
@@ -186,32 +189,34 @@ html {
 /************************* About **********************/
 
 .text-title-my-about {
-  position: absolute;
+  position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 700px;
+  top: -90px;
 }
 
 .about-container {
   display: flex;
-
 }
 
 .about-me {
-  position: absolute;
+  position: relative;
   font-family: "Poppins", sans-serif;
 }
 
 .about {
-  position: absolute;
-  top: 680px;
+  position: relative;
+  top: -300px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 700px;
   width: 100%;
+  margin-top: 120px;
+  flex-direction: column;
+
 }
 
 .photo-bg img {
@@ -288,4 +293,27 @@ html {
   text-align: left;
   letter-spacing: 1px;
   line-height: 35px;
+}
+
+/*******************Slide****************/
+
+.project {
+  height: 1000px;
+  border: 1px solid red;
+}
+
+/*******************Contact****************/
+.Contact {
+  position: relative;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Contact form input {
+  display: block;
+  padding: 8px 28px;
+  font-size: 18px;
+  border-radius: 20px;
 }

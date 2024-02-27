@@ -61,8 +61,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 90vh;
-
+    height: 600px;
   }
 
   .home-container {
@@ -74,7 +73,6 @@
     flex-direction: column;
     width: 100%;
     gap: 20px;
-    z-index: 1;
   }
 
   .my-photo {
@@ -157,27 +155,31 @@
 
   /* ********************About ***************************/
   .text-title-my-about {
-    position: absolute;
-    top: 750px;
+    position: relative;
+    top: 0;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+
   }
 
   .about-me {
-    position: absolute;
+    position: relative;
     font-family: "Poppins", sans-serif;
+    margin-top: 50px;
 
   }
 
   .about {
-    position: absolute;
-    top: 850px;
+    position: relative;
+    top: 0;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-top: 20px;
   }
 
   .about-container {
@@ -187,20 +189,19 @@
   }
 
   .photo-bg img {
-    border-radius: 12px;
-    width: 300px;
-    margin-left: 20px;
     display: none;
   }
 
   .card-box {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 15px;
   }
 
   .card-box .card {
-    width: 350px;
+    width: 330px;
     height: 200px;
     border-radius: 8px;
     border: 2px solid #000;
@@ -268,15 +269,26 @@
   }
 }
 
-@media (min-width: 580px) and (max-width: 895px) {
+@media (min-width: 580px) and (max-width: 690px) {
   .home-container {
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    gap: 50px;
+    gap: 10px;
   }
+
+  .home {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+  }
+
+
 
   .my-photo {
     width: 240px;
@@ -292,23 +304,24 @@
 
   /* ********************About ***************************/
   .text-title-my-about {
-    position: absolute;
-    top: 750px;
+    position: relative;
     width: 100%;
+    top: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .about-me {
-    position: absolute;
+    position: relative;
     font-family: "Poppins", sans-serif;
 
   }
 
   .about {
-    position: absolute;
+    position: relative;
     top: 0px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -317,7 +330,6 @@
 
   .about-me-box {
     position: relative;
-    top: 450px;
     display: flex;
   }
 
@@ -327,9 +339,7 @@
   }
 
   .photo-bg img {
-    border-radius: 12px;
-    width: 300px;
-    margin-left: 20px;
+
     display: none;
   }
 
@@ -340,7 +350,7 @@
   }
 
   .card-box .card {
-    width: 350px;
+    width: 280px;
     height: 200px;
     border-radius: 8px;
     border: 2px solid #000;
@@ -352,7 +362,7 @@
 
   .langue {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 5px;
   }
 
@@ -393,17 +403,78 @@
   }
 
   .text-title h1 {
-    margin-top: 50px;
+    margin-top: 10px;
   }
 
   .text-title p {
-    margin-top: 30px;
     margin-left: 30px;
-    width: 330px;
+    width: 250px;
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     text-align: left;
     letter-spacing: 1px;
     line-height: 35px;
+  }
+}
+
+@media (min-width: 690px) and (max-width: 1090px) {
+
+  .text-title-my-about {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .about-me {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    height: 50px;
+  }
+
+  .my-photo {
+    width: 240px;
+    height: 240px;
+    border-radius: 100%;
+    margin-left: 20px;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .my-photo img {
+    width: 240px;
+  }
+
+  .home-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 150px;
+  }
+
+  .about {
+    height: 400px;
+
+  }
+
+  .home {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+  }
+
+  .photo-bg img {
+    display: none;
+  }
+
+  .navbar {
+    height: 70px;
   }
 }
