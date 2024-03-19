@@ -52,7 +52,8 @@ window.addEventListener("DOMContentLoaded", () => {
         if (offset == (+CardWidth.slice(0, 3) + +CardMargin.slice(0, 2) + 1) * (slides.length - 3)) {
             offset = 0
 
-        } else {
+        }
+        else if (offset > 0) {
             offset += (+CardWidth.slice(0, 3) + +CardMargin.slice(0, 2) + 1)
         }
 
