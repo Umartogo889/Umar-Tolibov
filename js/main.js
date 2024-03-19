@@ -25,10 +25,12 @@ window.addEventListener("DOMContentLoaded", () => {
         closeBtn.addEventListener("click", () => {
 
             ulList.classList.remove("nav__toggle")
+            ulList.style.style.zIndex = "10";
+
 
         })
     })
-
+    console.log(getComputedStyle(ulList));
     // projects slide 
 
     let oneCard = slides[0],

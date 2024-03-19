@@ -19,12 +19,13 @@
     position: absolute;
     flex-direction: column;
     text-align: center;
-    top: 0px;
+    top: -20px;
     right: 0px;
     width: 50%;
-    background: rgba(255, 138, 4, 0.993);
+    backdrop-filter: blur(20px);
     height: 100vh;
     transform: translateX(100%);
+    z-index: 999;
   }
 
   .nav__toggle {
@@ -34,6 +35,7 @@
 
   .nav__item {
     margin-top: 70px;
+    color: #fff;
   }
 
   .nav__link {
