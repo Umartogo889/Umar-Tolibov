@@ -1,5 +1,4 @@
 @media only screen and (max-width: 580px) {
-
   body,
   html {
     overflow-x: hidden;
@@ -161,14 +160,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
   }
 
   .about-me {
     position: relative;
     font-family: "Poppins", sans-serif;
     margin-top: 50px;
-
   }
 
   .about {
@@ -185,7 +182,6 @@
   .about-container {
     display: flex;
     flex-direction: column;
-
   }
 
   .photo-bg img {
@@ -225,7 +221,7 @@
     cursor: pointer;
     letter-spacing: 1px;
     margin-left: 5px;
-    font-size: 15px
+    font-size: 15px;
   }
 
   .langue-card img {
@@ -244,8 +240,6 @@
     align-items: center;
     flex-direction: column;
   }
-
-
 
   .text-title {
     text-align: center;
@@ -267,6 +261,34 @@
     letter-spacing: 1px;
     line-height: 35px;
   }
+  .table-btn {
+    display: none;
+  }
+  .project {
+    top: -180px;
+  }
+  .slider-container {
+    width: 380px;
+    left: -20px;
+  }
+  .btn-slider {
+    top: 90%;
+  }
+  .card-slide {
+    width: 330px;
+    height: 480px;
+  }
+  .screen-btn {
+    display: block;
+  }
+  .slide-left-btn {
+    position: absolute;
+    background: #fff;
+    right: 50px;
+  }
+  .slide-right-btn {
+    background: #fff;
+  }
 }
 
 @media (min-width: 580px) and (max-width: 690px) {
@@ -287,8 +309,6 @@
     width: 100%;
     height: 400px;
   }
-
-
 
   .my-photo {
     width: 240px;
@@ -315,12 +335,11 @@
   .about-me {
     position: relative;
     font-family: "Poppins", sans-serif;
-
   }
 
   .about {
     position: relative;
-    top: 0px;
+    top: -80px;
     height: 500px;
     display: flex;
     justify-content: center;
@@ -335,11 +354,9 @@
 
   .about-container {
     display: flex;
-
   }
 
   .photo-bg img {
-
     display: none;
   }
 
@@ -374,7 +391,7 @@
     cursor: pointer;
     letter-spacing: 1px;
     margin-left: 5px;
-    font-size: 15px
+    font-size: 15px;
   }
 
   .langue-card img {
@@ -393,8 +410,6 @@
     align-items: center;
     flex-direction: column;
   }
-
-
 
   .text-title {
     text-align: center;
@@ -415,17 +430,37 @@
     letter-spacing: 1px;
     line-height: 35px;
   }
+  .project {
+    top: -250px;
+  }
+  .slider-container {
+    width: 450px;
+    left: -20px;
+  }
+  .btn-slider {
+    top: 35%;
+  }
+  .slide-left-btn {
+    width: 40px;
+    left: 150px;
+  }
+  .slide-right-btn {
+    width: 40px;
+  }
+  .card-slide {
+    width: 400px;
+    height: 500px;
+    margin-left: 75px;
+  }
 }
 
 @media (min-width: 690px) and (max-width: 1090px) {
-
   .text-title-my-about {
     position: relative;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-
   }
 
   .about-me {
@@ -434,6 +469,10 @@
     height: 50px;
   }
 
+  .about-me-box {
+    position: relative;
+    top: 130px;
+  }
   .my-photo {
     width: 240px;
     height: 240px;
@@ -458,7 +497,6 @@
 
   .about {
     height: 400px;
-
   }
 
   .home {
@@ -476,5 +514,29 @@
 
   .navbar {
     height: 70px;
+  }
+
+  .project {
+    top: -250px;
+  }
+  .slider-container {
+    width: 750px;
+    left: -20px;
+  }
+  .btn-slider {
+    top: 35%;
+  }
+  .slide-left-btn {
+    width: 40px;
+    left: 150px;
+  }
+  .slide-right-btn {
+    width: 40px;
+    right: -0px;
+  }
+  .card-slide {
+    width: 300px;
+    height: 500px;
+    margin-left: 52px;
   }
 }
