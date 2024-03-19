@@ -21,8 +21,8 @@
     text-align: center;
     top: -20px;
     right: 0px;
-    width: 50%;
-    backdrop-filter: blur(20px);
+    width: 60%;
+    backdrop-filter: blur(45px);
     height: 100vh;
     transform: translateX(100%);
     z-index: 999;
@@ -35,7 +35,6 @@
 
   .nav__item {
     margin-top: 70px;
-    color: #fff;
   }
 
   .nav__link {
@@ -44,6 +43,7 @@
     font-family: "Josefin Slab", serif;
     font-weight: 500;
     letter-spacing: 1px;
+    /* color: #f; */
   }
 
   .close__btn {
